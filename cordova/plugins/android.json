@@ -1,0 +1,1 @@
+{"prepare_queue":{"installed":[{"plugin":"com.chariotsolutions.nfc.plugin","vars":{},"topLevel":true},{"plugin":"org.apache.cordova.device","vars":{},"topLevel":true}],"uninstalled":[]},"config_munge":{},"installed_plugins":{},"dependent_plugins":{}}

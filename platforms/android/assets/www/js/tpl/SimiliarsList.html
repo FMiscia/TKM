@@ -1,0 +1,12 @@
+<ul class="topcoat-list list">
+    <% _.each(tracks, function(track) { %>
+    <li class="topcoat-list__item ">
+        <div class="tlist" id="<%=track.Id%>">
+            <img src='pics/music-icon.png'/>
+            <p><%= track.Title %></p>
+            <p><%= track.authorname %> </p>
+            <span class="chevron"><%= track.Vote %></span>
+        </div>
+    </li>
+    <% }); %>
+</ul>

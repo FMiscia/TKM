@@ -1,0 +1,22 @@
+/opt/lampp/htdocs/trackmaster/platforms/android/bin/classes.dex : \
+/opt/lampp/htdocs/trackmaster/platforms/android/bin/classes/com/chariotsolutions/nfc/plugin/NfcPlugin$3.class \
+/opt/lampp/htdocs/trackmaster/platforms/android/bin/classes/com/chariotsolutions/nfc/plugin/NfcPlugin$2.class \
+/opt/lampp/htdocs/trackmaster/platforms/android/bin/classes/com/chariotsolutions/nfc/plugin/NfcPlugin$6.class \
+/opt/lampp/htdocs/trackmaster/platforms/android/bin/classes/com/chariotsolutions/nfc/plugin/NfcPlugin$7.class \
+/opt/lampp/htdocs/trackmaster/platforms/android/bin/classes/com/chariotsolutions/nfc/plugin/Util.class \
+/opt/lampp/htdocs/trackmaster/platforms/android/bin/classes/com/chariotsolutions/nfc/plugin/NfcPlugin$1.class \
+/opt/lampp/htdocs/trackmaster/platforms/android/bin/classes/com/chariotsolutions/nfc/plugin/NfcPlugin$4.class \
+/opt/lampp/htdocs/trackmaster/platforms/android/bin/classes/com/chariotsolutions/nfc/plugin/NfcPlugin$8.class \
+/opt/lampp/htdocs/trackmaster/platforms/android/bin/classes/com/chariotsolutions/nfc/plugin/NfcPlugin$5.class \
+/opt/lampp/htdocs/trackmaster/platforms/android/bin/classes/com/chariotsolutions/nfc/plugin/NfcPlugin.class \
+/opt/lampp/htdocs/trackmaster/platforms/android/bin/classes/com/bbox/trackmaster/R$xml.class \
+/opt/lampp/htdocs/trackmaster/platforms/android/bin/classes/com/bbox/trackmaster/R$string.class \
+/opt/lampp/htdocs/trackmaster/platforms/android/bin/classes/com/bbox/trackmaster/BuildConfig.class \
+/opt/lampp/htdocs/trackmaster/platforms/android/bin/classes/com/bbox/trackmaster/R$drawable.class \
+/opt/lampp/htdocs/trackmaster/platforms/android/bin/classes/com/bbox/trackmaster/R$attr.class \
+/opt/lampp/htdocs/trackmaster/platforms/android/bin/classes/com/bbox/trackmaster/R.class \
+/opt/lampp/htdocs/trackmaster/platforms/android/bin/classes/com/bbox/trackmaster/TrackMaster.class \
+/opt/lampp/htdocs/trackmaster/platforms/android/bin/classes/org/apache/cordova/device/Device.class \
+/opt/lampp/htdocs/trackmaster/platforms/android/bin/classes/org/apache/cordova/api/Dummy.class \
+/opt/lampp/htdocs/trackmaster/platforms/android/bin/classes/org/apache/cordova/vibration/Vibration.class \
+/opt/lampp/htdocs/trackmaster/platforms/android/bin/dexedLibs/classes-c211bd207d952e734dc450eeb4b5086f.jar \

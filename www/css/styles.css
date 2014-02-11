@@ -1,0 +1,313 @@
+.topcoat-navigation-bar {
+    z-index: 10;
+}
+.scroller{
+    position:absolute;
+    overflow: auto;
+    webkit-overflow-scrolling: touch;
+    width:100%;
+}
+
+.topcoat-icon--back {
+    background: url("images/undo.png") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.topcoat-list__container {
+    border-bottom: none;
+    clear: both;
+}
+
+.count {
+    color: #58C0FF;
+    position: absolute;
+    right: 50px;
+    top: 26px;
+    font-weight: bold;
+}
+
+.search-bar {
+    padding:12px 10px 12px 8px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: rgb(0, 0, 0);
+}
+
+.details {
+    margin: auto;
+}
+
+.details>img {
+    float:left;
+    margin:10px;
+    width: 80px;
+    height: 80px;
+}
+
+.details h1 {
+    padding: 12px 0px 4px 0px;
+    margin: 0px 0px 0px 0px;
+    font-size: 1.5rem;
+    color: #3B3C3C;/*#C6C8C8;*/
+}
+
+.details h2 {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-size: 1.3rem;
+    font-weight: normal;
+    color: #888;
+}
+
+.list li {
+    position: relative;
+    text-align: left;
+    clear: both;
+    padding: 12px 60px 16px 8px !important;
+}
+
+.list > li p:nth-of-type(1) {
+    margin: 0px;
+    padding-top: 4px;
+    font-weight: bold;
+}
+
+.list > li p:nth-of-type(2) {
+    margin: 0px;
+    color: #888;
+}
+
+.list > li img {
+    width: 48px;
+    height: 48px;
+    float: left;
+    margin-top: 0px;
+    margin-right: 8px;
+}
+
+.list li:active {
+    background-color: #404141;
+    -webkit-box-shadow: inset 0 1px rgba(0,0,0,0.18);
+    box-shadow: inset 0 1px rgba(0,0,0,0.18);
+}
+
+.action-list > li {
+    position: relative;
+}
+
+.action-icon {
+    position: absolute !important;
+    top: 22px;
+    right: 20px !important;
+    width: 28px !important;
+    height: 28px;
+}
+
+.actions li p:nth-of-type(2) {
+    color:  #58C0FF ;
+}
+
+ul {
+    clear:both;
+    border-top: none !important;
+}
+
+.icon-call {
+    background:  url(images/call.svg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.icon-sms {
+    background: transparent url(images/chat.svg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.icon-mail {
+    background: transparent url(images/email.svg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.icon-manager {
+    background: transparent url(images/next.svg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.icon-reports {
+    background: transparent url(images/next.svg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.icon-location {
+    background: transparent url(images/location.svg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.chevron {
+    /*background: transparent url(images/vote.png);*/
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 35px;
+    top: 22px;
+    height: 50px;
+    width: 28px;
+}
+
+#map {
+    position: absolute;
+    top: 64px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.middlePage{
+    margin-top: 5%; 
+}
+
+#wrapper {
+    position:absolute;
+    width: 100%;
+    height: 100%; /*(li) 75px * (number of tracks) 20 + some margin*/
+    z-index:1;
+}
+
+#scroller ul {
+    list-style: none;
+    padding:0;
+    margin-left: 10px;
+    width:100%;
+    text-align:left;
+    margin-bottom: 60px;
+    overflow-y: hidden;
+}
+
+#scroller li {
+}
+/**
+ *
+ * Pull down styles
+ *
+ */
+#pullDown, #pullUp {
+    background:#fff;
+    height:40px;
+    line-height:40px;
+    padding:5px 10px;
+    border-bottom:1px solid #ccc;
+    font-weight:bold;
+    font-size:14px;
+    color:#888;
+}
+#pullDown .pullDownIcon, #pullUp .pullUpIcon  {
+    display:block; float:left;
+    width:40px; height:40px;
+    background: url("pull-icon@2x.png") 0 0 no-repeat;
+    -webkit-background-size:40px 80px; background-size:40px 80px;
+    -webkit-transition-property:-webkit-transform;
+    -webkit-transition-duration:250ms;	
+}
+#pullDown .pullDownIcon {
+    -webkit-transform:rotate(0deg) translateZ(0);
+}
+#pullUp .pullUpIcon  {
+    -webkit-transform:rotate(-180deg) translateZ(0);
+}
+
+#pullDown.flip .pullDownIcon {
+    -webkit-transform:rotate(-180deg) translateZ(0);
+}
+
+#pullUp.flip .pullUpIcon {
+    -webkit-transform:rotate(0deg) translateZ(0);
+}
+
+#pullDown.loading .pullDownIcon, #pullUp.loading .pullUpIcon {
+    background-position:0 100%;
+    -webkit-transform:rotate(0deg) translateZ(0);
+    -webkit-transition-duration:0ms;
+
+    -webkit-animation-name:loading;
+    -webkit-animation-duration:2s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:linear;
+}
+
+@-webkit-keyframes loading {
+    from { -webkit-transform:rotate(0deg) translateZ(0); }
+to { -webkit-transform:rotate(360deg) translateZ(0); }
+}
+
+.icon-yt{
+    background: url("images/yt.png") 0 0 no-repeat;
+}
+
+.icon-vote{
+    background: url("images/vote.png") 0 0 no-repeat;
+
+}
+
+.track-container{
+    margin: 1em;
+}
+
+.inline{
+    display: inline;
+    margin: 1em;
+}
+
+.option-container{
+    position: relative;
+    text-align: center;
+    margin-top: 3em;
+}
+
+.inline p{
+    color: #888;
+}
+
+.loadingicon{
+    display: inline-table;
+    background: url("images/loader.gif") 0 0 no-repeat;
+    width: 25px;
+    height: 25px;
+    margin-left: 25px;
+    margin-top: 15px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.icon--home {
+    background: url("images/home.png") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}

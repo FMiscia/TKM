@@ -1,0 +1,50 @@
+<div class="topcoat-navigation-bar">
+    <div class="topcoat-navigation-bar__item left">
+        <a class="topcoat-icon-button--quiet home-button" href="#home">
+            <span class="topcoat-icon icon--home"></span>
+        </a>
+    </div>
+    <div class="topcoat-navigation-bar__item left ">
+        <a class="topcoat-icon-button--quiet back-button" href="#">
+            <span class="topcoat-icon topcoat-icon--back"></span>
+        </a>
+    </div>
+    <div class="topcoat-navigation-bar__item left center ">
+        <h1 class="topcoat-navigation-bar__title">Track Detail</h1>
+    </div>
+</div>
+<div class="details">
+    <img src='pics/music-icon.png'/>
+    <h1><%= Title %></h1>
+    <h2><%= authorname %></h2>
+</div>
+<div class='details'>
+    <div class="option-container topcoat-list__container">
+        <ul class="topcoat-list list">
+            <li class="topcoat-list__item">
+                <div class="inline" id="vote">
+                    <img  src='css/images/vote.png'/>
+                    <p>Vote For This Song</p>
+                    <div id="votediv"></div>
+                    <p id="votemessage" style="display: none"></p>
+                </div>
+            </li>
+            <li class="topcoat-list__item">
+                <div class="inline" id="similiars">
+                    <img  src='css/images/similiars.png'/>
+                    <p>Look for similiars</p>
+                    <div id="similiarsdiv"></div>
+                    <p id="similiarsmessage" style="display: none"></p>
+                </div>
+            </li>
+            <li class="topcoat-list__item">
+                <div class="inline" id="yt">
+                    <img src='css/images/yt.png'/>
+                    <p>Listen to YouTube</p>
+                    <div id="ytdiv"></div>
+                    <p id="ytmessage" style="display: none"></p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>

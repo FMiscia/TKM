@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/platforms/android/CordovaLib/CordovaLib.iml" filepath="$PROJECT_DIR$/platforms/android/CordovaLib/CordovaLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platforms/android/cordova/plugins/com.chariotsolutions.nfc.plugin/src/android/android.iml" filepath="$PROJECT_DIR$/platforms/android/cordova/plugins/com.chariotsolutions.nfc.plugin/src/android/android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/phonegap-nfc/src/android/android1.iml" filepath="$PROJECT_DIR$/phonegap-nfc/src/android/android1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platforms/android/android2.iml" filepath="$PROJECT_DIR$/platforms/android/android2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cordova/plugins/com.chariotsolutions.nfc.plugin/src/android/android3.iml" filepath="$PROJECT_DIR$/cordova/plugins/com.chariotsolutions.nfc.plugin/src/android/android3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cordova/plugins/com.chariotsolutions.nfc.plugin/src/com.chariotsolutions.nfc.plugin.iml" filepath="$PROJECT_DIR$/cordova/plugins/com.chariotsolutions.nfc.plugin/src/com.chariotsolutions.nfc.plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platforms/android/cordova/plugins/com.chariotsolutions.nfc.plugin/src/com.chariotsolutions.nfc.plugin1.iml" filepath="$PROJECT_DIR$/platforms/android/cordova/plugins/com.chariotsolutions.nfc.plugin/src/com.chariotsolutions.nfc.plugin1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/phonegap-nfc/src/phonegap-nfc.iml" filepath="$PROJECT_DIR$/phonegap-nfc/src/phonegap-nfc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trackmaster.iml" filepath="$PROJECT_DIR$/trackmaster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/platforms/android/cordova/plugins/com.chariotsolutions.nfc.plugin/src/webworks/webworks.iml" filepath="$PROJECT_DIR$/platforms/android/cordova/plugins/com.chariotsolutions.nfc.plugin/src/webworks/webworks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cordova/plugins/com.chariotsolutions.nfc.plugin/src/webworks/webworks1.iml" filepath="$PROJECT_DIR$/cordova/plugins/com.chariotsolutions.nfc.plugin/src/webworks/webworks1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/phonegap-nfc/src/webworks/webworks2.iml" filepath="$PROJECT_DIR$/phonegap-nfc/src/webworks/webworks2.iml" />
+    </modules>
+  </component>
+</project>
+
